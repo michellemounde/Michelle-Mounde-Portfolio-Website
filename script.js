@@ -45,7 +45,13 @@ footer.append(pDisclaimer);
 pDisclaimer.textContent = "**This is the first version of my portfolio website. Projects are image placeholders and will be updated with real projects.";
 
 
+document.getElementById("email").addEventListener("click",function(){
+    alert("Emailing Michelle!");
+});
 
+document.getElementById("phone").addEventListener("click",function(){
+    alert("Calling Michelle!");
+});
 
 
 
