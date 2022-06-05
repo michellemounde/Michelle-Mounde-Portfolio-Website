@@ -42,7 +42,7 @@ pDisclaimer.id = "disclaimer";
 
 footer.append(pDisclaimer);
 
-pDisclaimer.textContent = "**This is the first version of my portfolio website. Projects are image placeholders and will be updated with real projects.";
+pDisclaimer.textContent = "**This is the first version of my portfolio website. Projects are lab placeholders and will be updated with real projects.";
 
 
 document.getElementById("email").addEventListener("click",function(){
